@@ -13,8 +13,6 @@ ime = "Python123"
 # print(ime[2])
 # print(ime[-1])
 # print(ime[-2])
-
-# print(ime[2:8])
 # print(ime[-7:-1])
 
 # print(ime[:6])
@@ -47,8 +45,8 @@ ime = "Python123"
 # NOTE: .replace("a", "e") => "IME" = "ime"
 
 
-# pozdrav = "HI, {}, {}"
+pozdrav = "HI, {}"
 
-# pozdrav_formatted = pozdrav.format("Ben", "good morning!")
+pozdrav_formatted = pozdrav.format("Ben")
 
-# print(pozdrav_formatted)
+print(pozdrav_formatted)

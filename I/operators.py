@@ -19,6 +19,7 @@
 # *= je mnozenje na vec postojecu vrednost
 # /= je deljenje na vec postojecu vrednost
 
+
 # Comparison operators - operatori za uporednjivanje
 
 # == je uporedjivanje vrednosti sa desne i leve strane ( iste vrednosti )
@@ -27,6 +28,7 @@
 # <
 # >=
 # <=
+
 
 # print(10 == 10) True
 # print(11 == 10) False
