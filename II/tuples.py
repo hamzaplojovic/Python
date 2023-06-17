@@ -103,10 +103,10 @@
 # PYTHON PROGRAM KOJI IMA TUPLE POZITIVNIH BROJEVA
 # I VRACA NAM SPOJENO
 
-nas_tuple = (1, 2, 3, 4, 5, 6)
-nas_string = ""
+# nas_tuple = (1, 2, 3, 4, 5, 6)
+# nas_string = ""
 
-for x in nas_tuple:
-    nas_string += str(x)
+# for x in nas_tuple:
+#     nas_string += str(x)
 
-print(int(nas_string))
+# print(int(nas_string))
