@@ -83,9 +83,25 @@
 # ako moze, ispisati string je integer
 # ako ne, ispisati error
 
-unos = input("Unesite string: ")
+# unos = input("Unesite string: ")
 
-if unos.isnumeric() == True:
-    print("String je broj", int(unos))
-else:
-    print("error")
+# if unos.isnumeric() == True:
+#     print("String je broj", int(unos))
+# else:
+#     print("error")
+
+# If u Pythonu je uslov. Sastoji se iz uslova koji je potrebno ispuniti,
+# i bloka koda koji ce da se izvrsi ako je uslov ispunjen
+# Else u Pythonu oznacava blok koda koji ce da se izvrsi ako uslovi nisu ispunjeni
+# Elif je u Pythonu alternativa za if, koja oznacava uslove koji ako je jedan tacan,
+# ostali se preskacu.
+
+# if 5 > 5:
+#   print("broj je veci od 5")
+# elif 5 == 5:
+#   print("broj je 5")
+# else:
+#   print("broj nije veci od 5")
+
+# for slovo in "Hamza":
+#     print(slovo)

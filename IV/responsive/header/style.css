@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    width: 100vw;
+    height: 13vh;
+    display: flex;
+    background-color: rgb(240, 240, 240);
+}
+
+.container .item1 {
+    width: 25%;
+    padding-left: 5%;
+}
+
+.container .item1 .grb {
+    width: 40%;
+    height: 60%;
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmJL5x5CFtV3jhE8fN-0pFNaOPowkCgZrLOcLIx_OaxA&s");
+    background-size: 100%;
+}
+
+.container .item2 {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .item2 ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container .item2 ul a {
+    text-decoration: none;
+    color: black;
+}
+
+.container .item3 {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .item3 .buttons {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.container .item3 div button {
+    padding: 3% 5%;
+    background-color: black;
+    border: 0px;
+    border-radius: 5px;
+    color: white;
+}
