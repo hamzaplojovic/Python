@@ -8,3 +8,6 @@ print(x * "Hamza")
 # "Hamza".upper()  => HAMZA
 # "   Hamza     ".strip() => Hamza
 # "Hamza".replace("a", "b") => Hamzb
+
+
+

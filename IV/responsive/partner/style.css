@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Courier New", Courier, monospace;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 80%;
+    height: 70%;
+    text-align: center;
+    padding: 5%;
+}
+
+.container h1 {
+    margin-bottom: 5%;
+}
+
+.container p {
+    margin-bottom: 5%;
+    font-size: 2vw;
+    color: grey;
+}
+
+.container button {
+    width: 25%;
+    height: 20%;
+    font-size: 1.6vw;
+    background: black;
+    border: 3px solid black;
+    color: white;
+
+    transition: all 0.8s cubic-bezier(0.42, 0, 0, 1.24);
+}
+
+.container button:hover {
+    cursor: pointer;
+    font-weight: 900;
+    background: white;
+    border: 3px solid black;
+    color: black;
+}
