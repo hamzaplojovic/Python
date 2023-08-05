@@ -36,8 +36,8 @@
 # moj_objekat.ispisi_parametre()
 
 
+# __init__ funkcija je funkcija koja se automatski izvrsava kada od klase ( plana ) napravimo objekat ( kucu )
 class Osoba:
-    # __init__ funkcija je funkcija koja se automatski izvrsava kada od klase ( plana ) napravimo objekat ( kucu )
     def __init__(self, name):
         self.name = name
 
