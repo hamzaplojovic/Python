@@ -213,7 +213,7 @@ nav .items a:hover {
     height: 45%;
 }
 
-.contact .items .inputs button {
+.contact .items .inputs a {
     width: 30%;
     font-size: 20px;
     background-color: #dedede;
@@ -221,9 +221,14 @@ nav .items a:hover {
     padding: 1% 0%;
     font-family: "Courier New", Courier, monospace;
     transition: all ease-in-out 0.25s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
 }
 
-.contact .items .inputs button:hover {
+.contact .items .inputs a:hover {
     cursor: pointer;
     transform: translateY(-3px) scale(1.01);
     background-color: black;

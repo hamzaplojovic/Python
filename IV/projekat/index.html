@@ -101,9 +101,9 @@
             <h1>Contact</h1>
             <div class="items">
                 <div class="inputs">
-                    <input type="text" />
-                    <textarea></textarea>
-                    <button>Send</button>
+                    <input type="text" id="subject" onchange="generateLink()" />
+                    <textarea id="body" onchange="generateLink()"></textarea>
+                    <a id="mailLink" target="_blank">Send</a>
                 </div>
                 <div class="info">
                     <iframe
@@ -121,5 +121,6 @@
                 </div>
             </div>
         </div>
+        <script src="main.js"></script>
     </body>
 </html>
