@@ -17,30 +17,34 @@
         <nav>
             <h1>Hamza Plojovic</h1>
             <div class="items">
-                <a href="#">Home</a>
-                <a href="#">About</a>
-                <a href="#">Projects</a>
-                <a href="#">Contact</a>
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
             </div>
         </nav>
-        <div class="home">
+        <div class="home" id="home">
             <h1>Hamza Plojovic</h1>
-            <button>Read More</button>
+            <a href="#about">Read More</a>
         </div>
-        <div class="about">
+        <div class="about" id="about">
             <h1>About</h1>
             <p>
                 Ja sam Hamza Plojovic, imam 15 godina. Idem u skolu Vuk Karadzic
                 i omiljeni predmet mi je Fizicko. Volim da citam i igram
                 kosarku. Idem na kurs kao ucitelj.
             </p>
-            <button>Vidi projekte</button>
+            <a href="#projects">Vidi projekte</a>
         </div>
-        <div class="projects">
+        <div class="projects" id="projects">
             <h1 class="title">Projects</h1>
             <div class="items">
                 <div class="row">
-                    <div class="item">
+                    <a
+                        class="item"
+                        href="https://github.com/aqeelanwar/Tic-Tac-Toe"
+                        target="_blank"
+                    >
                         <h1>Tic Tac Toe</h1>
                         <p>
                             Lorem, ipsum dolor sit amet consectetur adipisicing
@@ -48,8 +52,12 @@
                             aliquam repellendus dolor voluptatibus autem, iure
                             mollitia harum fugiat natus.
                         </p>
-                    </div>
-                    <div class="item">
+                    </a>
+                    <a
+                        class="item"
+                        href="https://github.com/Karam-Sabbagh/BrickBreaker"
+                        target="_blank"
+                    >
                         <h1>Brick Breaker</h1>
                         <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing
@@ -57,10 +65,14 @@
                             eius porro praesentium aspernatur esse accusamus
                             distinctio ab nostrum? Eos, nulla?
                         </p>
-                    </div>
+                    </a>
                 </div>
                 <div class="row">
-                    <div class="item">
+                    <a
+                        class="item"
+                        href="https://github.com/rajatdiptabiswas/snake-pygame"
+                        target="_blank"
+                    >
                         <h1>Snake Game</h1>
                         <p>
                             Lorem ipsum dolor, sit amet consectetur adipisicing
@@ -68,8 +80,12 @@
                             sunt animi exercitationem rerum vero! Vel repellat
                             sapiente ipsum quasi.
                         </p>
-                    </div>
-                    <div class="item">
+                    </a>
+                    <a
+                        class="item"
+                        href="https://github.com/alisharify7/Programming-Questions"
+                        target="_blank"
+                    >
                         <h1>Quiz</h1>
                         <p>
                             Lorem ipsum dolor, sit amet consectetur adipisicing
@@ -77,11 +93,11 @@
                             sunt animi exercitationem rerum vero! Vel repellat
                             sapiente ipsum quasi.
                         </p>
-                    </div>
+                    </a>
                 </div>
             </div>
         </div>
-        <div class="contact">
+        <div class="contact" id="contact">
             <h1>Contact</h1>
             <div class="items">
                 <div class="inputs">
