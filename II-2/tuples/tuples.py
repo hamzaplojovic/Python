@@ -39,9 +39,9 @@ print(duplicates)
 # ==================================================================
 # DRUGI NACIN
 # ==================================================================
-for x in moj_tuple:
-    item_count = list(moj_tuple).count(x)
-    if item_count > 1 and x not in duplicates:
-        duplicates.append(x)
+# for x in moj_tuple:
+#     item_count = list(moj_tuple).count(x)
+#     if item_count > 1 and x not in duplicates:
+#         duplicates.append(x)
 
-print(duplicates)
+# print(duplicates)
