@@ -40,8 +40,4 @@ test(
     passengers="4"
 )
 
-{
-    "name": "ford",
-    "model": "mustang",
-    "year": 1964
-}
+

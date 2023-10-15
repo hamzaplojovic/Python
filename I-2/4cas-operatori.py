@@ -36,7 +36,7 @@
 
 # Zakljucak: Or operator vraca True kada je makar jedan clan True
 
-# print((100 >= 99 or 5 == 6) and (43 < 76 and True or 65 > 90))
+print((100 >= 99 or 5 == 6) and (43 < 76 and True or 65 > 90))
 
 # NOT operator oznacava negaciju
 
