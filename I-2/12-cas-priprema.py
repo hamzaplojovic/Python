@@ -36,3 +36,23 @@
 # 7. If oznacava blok koda koji ce se izvrsiti ako je uslov tacan, a else oznacava
 #    blok koda koji ce se izvrsiti ako je uslov u if-u netacan
 # 8. While petlja oznacava blok koda koji ce se ponavljati dok je uslov tacan
+
+
+# ZADACI:
+# 1.
+ime = input("Unesi svoje ime: ")
+ime_velika_slova = ime.upper()
+print(ime_velika_slova)
+
+# 2.
+broj = 1
+while broj <= 100:  # 33
+    if broj % 3 == 0 and broj % 5 == 0:
+        print("FizzBuzz")
+    elif broj % 3 == 0:
+        print("Fizz")
+    elif broj % 5 == 0:
+        print("Buzz")
+    else:
+        print(broj)
+    broj += 1
